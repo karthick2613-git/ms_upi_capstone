@@ -1,0 +1,105 @@
+{
+  "z_alpha": 1.959963984540054,
+  "z_beta": 0.8416212335729143,
+  "K": 2.8015852181129683,
+  "panel": {
+    "rows_all": 1598,
+    "rows_banks": 1555,
+    "months": 32,
+    "entities": 56,
+    "entities_all_months": 39
+  },
+  "RQ1": {
+    "sigma_e": 1.0508165109443113,
+    "sd_x_within": 0.12577695919681947,
+    "beta_min": 0.6,
+    "n_power": 1521.7971553685586,
+    "k_sub": 4,
+    "k_fe": 86,
+    "n_green": 770,
+    "N": 1522,
+    "prelim_beta_lnV": -0.4574150279085111,
+    "prelim_se": 0.21193383156411688,
+    "mde_beta_available": 0.5935597424037173,
+    "available": 1555
+  },
+  "RQ2": {
+    "break_month": "2025-08",
+    "n_pre": 19,
+    "n_post": 13,
+    "sigma": 0.13532716350180438,
+    "rho": 0.20265960792841922,
+    "infl": 1.5083389978573307,
+    "ci_target": 0.25,
+    "se_level": 0.11393948026703546,
+    "ci_half_width_available": 0.22331727774060167,
+    "n_total_ci": 26,
+    "rule_of_thumb_total": 24,
+    "mde_pp": 0.31921116367560076,
+    "td_pre_mean": 0.5251210471392407,
+    "td_post_mean": 0.3203020884124342,
+    "bd_pre_mean": 6.789735765291956,
+    "bd_post_mean": 9.165090566294804,
+    "prelim_level_change": 0.1515592217542787,
+    "prelim_level_se": 0.047610488888529735,
+    "N": 26
+  },
+  "RQ3": {
+    "r": 0.2,
+    "n_fisher": 193.96804018398933,
+    "N": 194,
+    "peak_bank_months": 342,
+    "march_bank_months": 146,
+    "festive_bank_months": 196,
+    "n_r30": 84.9278111157752,
+    "n_r25": 123.31570437749926
+  },
+  "RQ4": {
+    "spike_rule": "robust z>3 (median/MAD within bank) and TD>=1.0%",
+    "spike_months": 104,
+    "banks_with_spike": 37,
+    "episodes": 69,
+    "episodes_recovered": 69,
+    "median_duration": 1.0,
+    "mean_duration": 1.5072463768115942,
+    "max_duration": 4,
+    "one_month_share": 0.6811594202898551,
+    "cox_k": 3,
+    "cox_min_events": 30,
+    "train_spikes": 99,
+    "test_spikes": 5,
+    "ml_features": 8,
+    "ml_min_positive": 80,
+    "total_spikes": 104,
+    "rho_ar1": 0.31793803410003724,
+    "half_life": 0.6048939005508875,
+    "icc": 0.5571772494221424,
+    "sigma_between": 1.5906320392819473,
+    "sigma_within": 1.2641723177366095,
+    "banks_for_variance": 56,
+    "N": 30
+  },
+  "naive_baseline": {
+    "n": 383,
+    "rmse_pp": 0.9286973197239843,
+    "mae_pp": 0.43401982490493923,
+    "test_months": "2026-01 to 2026-08"
+  },
+  "naive_spike": {
+    "n": 383,
+    "pos": 5,
+    "precision": 0.4,
+    "recall": 0.4
+  },
+  "final_N": {
+    "by_rq": {
+      "RQ1": 1522,
+      "RQ2": 26,
+      "RQ3": 194,
+      "RQ4": 30
+    },
+    "max": 1522,
+    "available_bank_months": 1555,
+    "available_months": 32
+  }
+}

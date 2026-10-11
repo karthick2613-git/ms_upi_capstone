@@ -1,0 +1,58 @@
+entity,bank,first_month,last_month,months,raw_names,mapping_type
+AU Small Finance Bank,AU Small Finance Bank,2024-01,2026-08,32,AU Small Finance Bank | AU small Finance Bank | Au Small Finance Bank,spelling variants only
+Airtel Payments Bank,Airtel Payments Bank,2024-01,2026-08,32,Airtel Payments Bank | Airtel Payments Bank Limited | Airtel Payments Bank Ltd | Airtel Payments Bank Ltd.,spelling variants only
+Andhra Pradesh Grameena Bank,Andhra Pradesh Grameena Bank,2025-11,2025-12,2,Andhra Pradesh Grameena Bank,spelling variants only
+Andhra Pragathi Grameena Bank,Andhra Pragathi Grameena Bank,2024-02,2025-09,20,Andhra Pragathi Grameena Bank,spelling variants only
+Axis Bank,Axis Bank,2024-01,2026-08,32,Axis Bank Ltd. | Axis bank Ltd.,spelling variants only
+Bandhan Bank,Bandhan Bank,2024-01,2026-08,32,BANDHAN BANK LIMITED | Bandhan Bank | Bandhan Bank Limited | Bandhan Bank Ltd. | Bandhan Bank limited,spelling variants only
+Bank of Baroda,Bank of Baroda,2024-01,2026-08,32,Bank Of Baroda | Bank of Baroda,spelling variants only
+Bank of India,Bank of India,2024-01,2026-08,32,Bank Of India | Bank of India,spelling variants only
+Bank of Maharashtra,Bank of Maharashtra,2024-01,2026-08,32,Bank Of Maharashtra | Bank of Maharashtra,spelling variants only
+Baroda UP Gramin Bank,Baroda UP Gramin Bank,2024-01,2026-08,28,Baroda U.P. Bank | Baroda U.P. Bank (Erstwhile Baroda Uttar Pradesh Gramin Bank) | Baroda UP Gramin Bank | Baroda Uttar Pradesh Gramin Bank,spelling variants only
+Canara Bank,Canara Bank,2024-01,2026-08,32,Canara Bank,spelling variants only
+Central Bank of India,Central Bank of India,2024-01,2026-08,32,Central Bank Of India | Central Bank of India,spelling variants only
+Chaitanya Godavari Grameena Bank,Chaitanya Godavari Grameena Bank,2026-01,2026-08,8,CHAITANYA GODAVARI GRAMEENA BANK | Chaitanya Godavari Grameena Bank,spelling variants only
+Citibank,Citibank,2024-01,2024-05,5,CITI Bank | Citi Bank | Citibank,spelling variants only
+City Union Bank,City Union Bank,2024-01,2026-08,32,City Union Bank | City Union Bank Limited,spelling variants only
+DBS Bank India,DBS Bank India,2024-01,2026-08,32,DBS Bank India Limited | Dbs Bank India Limited,spelling variants only
+ESAF Small Finance Bank,ESAF Small Finance Bank,2024-01,2026-08,32,ESAF SMALL FINANCE BANK LTD | ESAF Small Finance Bank Ltd | ESAF Small Finance Bank Ltd. | Esaf Small Finance Bank Ltd,spelling variants only
+Equitas Small Finance Bank,Equitas Small Finance Bank,2024-01,2026-08,31,EQUITAS SMALL FINANCE BANK | Equitas Bank | Equitas Small Finance Bank | Equitas Small Finance Bank Ltd,spelling variants only
+Federal Bank,Federal Bank,2024-01,2026-08,32,Federal Bank | Federal Bank Ltd. | Federal bank Ltd.,spelling variants only
+Fincare Small Finance Bank,Fincare Small Finance Bank,2024-01,2024-07,6,AU Small Finance Bank (Erstwhile Fincare) | Fincare Small Finance Bank Limited | Fincare Small Finance Bank Ltd,spelling variants only
+Fino Payments Bank,Fino Payments Bank,2024-01,2026-08,32,Fino Payments Bank Limited | Fino Payments Bank Limited FIP | Fino Payments Bank Ltd.,spelling variants only
+HDFC Bank,HDFC Bank,2024-01,2026-08,32,HDFC BANK LTD | HDFC BANK LTD. | HDFC Bank Ltd | HDFC Bank Ltd. | Hdfc Bank Ltd.,spelling variants only
+ICICI Bank,ICICI Bank,2024-01,2026-08,32,ICICI Bank | ICICI Bank Ltd | ICICI Bank Ltd. | Icici Bank Ltd.,spelling variants only
+IDBI Bank,IDBI Bank,2024-01,2026-08,32,IDBI Bank | IDBI Bank Limited | IDBI Bank Ltd. | Idbi Bank Ltd.,spelling variants only
+IDFC FIRST Bank,IDFC FIRST Bank,2024-01,2026-08,32,IDFC Bank Ltd. | IDFC FIRST Bank | IDFC First Bank | IDFC First Bank Ltd | Idfc Bank Ltd.,spelling variants only
+India Post Payments Bank,India Post Payments Bank,2024-01,2026-08,32,INDIA POST PAYMENTS BANK LIMITED | India Post Payment Bank | India Post Payments Bank Limited | India Post Payments Bank Ltd | India Post Payments Bank Ltd.,spelling variants only
+Indian Bank,Indian Bank,2024-01,2026-08,32,Indian Bank,spelling variants only
+Indian Overseas Bank,Indian Overseas Bank,2024-01,2026-08,32,Indian Overseas Bank,spelling variants only
+IndusInd Bank,IndusInd Bank,2024-01,2026-08,32,INDUSIND BANK | INDUSIND BANK Ltd. | Indusind Bank | Indusind Bank Ltd.,spelling variants only
+Jammu & Kashmir Bank,Jammu & Kashmir Bank,2024-01,2026-08,32,Jammu and Kashmir Bank | The Jammu & Kashmir Bank Limited | The Jammu And Kashmir Bank Ltd,spelling variants only
+Jio Payments Bank,Jio Payments Bank,2024-06,2026-08,27,JIO PAYMENTS BANK LTD | JIO Payments Bank Ltd | Jio Payments Bank Limited | Jio Payments Bank Ltd | Jio Payments Bank limited,spelling variants only
+Karnataka Bank,Karnataka Bank,2024-01,2026-08,32,Karnataka Bank | Karnataka Bank Ltd | Karnataka Bank Ltd.,spelling variants only
+Karnataka Gramin Bank,Karnataka Gramin Bank,2024-01,2026-08,32,Karnataka Gramin Bank | Karnataka Gramin Bank (Erstwhile Pragathi Krishna Gramin Bank) | Pragathi Krishna Gramin Bank,spelling variants only
+Karur Vysya Bank,Karur Vysya Bank,2024-01,2026-08,32,Karur Vysya Bank,spelling variants only
+Kerala Gramin Bank,Kerala Gramin Bank,2024-01,2026-08,32,KERALA GRAMIN BANK | Kerala Gramin Bank,spelling variants only
+Kotak Mahindra Bank,Kotak Mahindra Bank,2024-01,2026-08,32,Kotak Mahindra Bank | Kotak Mahindra Bank Ltd,spelling variants only
+Maharashtra Gramin Bank,Maharashtra Gramin Bank,2024-01,2026-08,32,Maharashtra Gramin Bank,spelling variants only
+NSDL Payments Bank,NSDL Payments Bank,2024-08,2026-08,25,NSDL Payments Bank Limited | Nsdl Payments Bank Limited,spelling variants only
+Paytm Payments Bank,Paytm Payments Bank,2024-01,2024-03,3,Paytm Payments Bank,spelling variants only
+Punjab & Sind Bank,Punjab & Sind Bank,2024-01,2026-08,32,Punjab & Sind Bank | Punjab And Sind Bank | Punjab and Sind Bank,spelling variants only
+Punjab National Bank,Punjab National Bank,2024-01,2026-08,32,Punjab National Bank | Punjab national Bank,spelling variants only
+RBL Bank,RBL Bank,2024-01,2026-04,26,RBL Bank | RBL Bank Limited | RBL Bank Ltd. | Rbl Bank Ltd.,spelling variants only
+Rajasthan Marudhara Gramin Bank,Rajasthan Marudhara Gramin Bank,2024-01,2026-08,32,Rajasthan Gramin Bank | Rajasthan Marudhara Gramin Bank,spelling variants only
+Saraswat Co-operative Bank,Saraswat Co-operative Bank,2024-01,2026-08,32,Saraswat Bank | Saraswat Co-Operative Bank | Saraswat Co-operative Bank | Saraswat Co-operative Bank Ltd.,spelling variants only
+Sarva Haryana Gramin Bank,Sarva Haryana Gramin Bank,2024-01,2026-08,30,SARVA HARYANA GRAMIN BANK | Sarva Haryana Gramin Bank,spelling variants only
+Slice Small Finance Bank,Slice Small Finance Bank,2025-10,2026-08,11,Slice Small Finance Bank Limited | Slice Small Finance Bank Limited + Slice Small Finance Bank Limited | slice Small Finance Bank Limited,spelling variants only
+South Indian Bank,South Indian Bank,2024-01,2026-08,32,South Indian Bank | The South Indian Bank Limited,spelling variants only
+Standard Chartered Bank,Standard Chartered Bank,2024-01,2025-10,20,Standard Chartered | Standard Chartered Bank,spelling variants only
+State Bank of India,State Bank of India,2024-01,2026-08,32,State Bank Of India | State Bank of India,spelling variants only
+Tamilnad Mercantile Bank,Tamilnad Mercantile Bank,2024-01,2026-08,31,Tamilnad Mercantile Bank | Tamilnad Mercantile Bank Limited | Tamilnad Mercantile Bank Ltd.,spelling variants only
+Telangana Grameena Bank,Andhra Pradesh Grameena Vikas Bank,2024-01,2024-12,12,Andhra Pradesh Grameena Vikas Bank | Andhra Pradesh Grameena Vikas Bank - IMPS,ENTITY RENAME (assumption; see note)
+Telangana Grameena Bank,Telangana Grameena Bank,2025-01,2026-08,20,TELANGANA GRAMEENA BANK | Telangana Grameena Bank,ENTITY RENAME (assumption; see note)
+UCO Bank,UCO Bank,2024-01,2026-08,32,UCO Bank | Uco Bank,spelling variants only
+Ujjivan Small Finance Bank,Ujjivan Small Finance Bank,2024-01,2026-08,31,UJJIVAN SMALL FINANCE BANK LIMITED | Ujjivan Small Finance Bank | Ujjivan Small Finance Bank Limited,spelling variants only
+Union Bank of India,Union Bank of India,2024-01,2026-08,32,Union Bank Of India | Union Bank of India,spelling variants only
+Uttar Pradesh Gramin Bank,Uttar Pradesh Gramin Bank,2025-10,2025-12,3,Uttar Pradesh Gramin Bank,spelling variants only
+YES Bank,YES Bank,2024-01,2026-08,32,YES Bank Ltd. | Yes Bank Ltd | Yes Bank Ltd. | Yes bank Ltd.,spelling variants only
