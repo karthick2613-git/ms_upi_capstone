@@ -1,0 +1,22 @@
+{
+ "rows": 1598,
+ "bank_rows": 1555,
+ "months": 32,
+ "entities": 62,
+ "files": 32,
+ "max_pct_dev": 0.010000000000019327,
+ "dup_keys": 0,
+ "sql_first_last": [
+  {
+   "month": "2024-01",
+   "vol_bn": 12.522,
+   "td_weighted": 0.756
+  },
+  {
+   "month": "2026-08",
+   "vol_bn": 26.497,
+   "td_weighted": 0.207
+  }
+ ],
+ "pandas_from_sql_rows": 1555
+}

@@ -1,0 +1,49 @@
+entity,group,volume_mn,td_pct,pred_td,pred_spike_prob,flag
+Baroda UP Gramin Bank,Regional rural,109.671881,2.44,3.7203836,0.19149703,0
+Maharashtra Gramin Bank,Regional rural,45.874636,1.23,2.135875,0.0085165035,0
+Rajasthan Marudhara Gramin Bank,Regional rural,78.463399,1.18,1.7152292,0.004519078,0
+Central Bank of India,Public sector,478.279993,2.34,1.6713837,0.33444056,0
+Kerala Gramin Bank,Regional rural,68.614167,0.84,1.6523678,0.098981194,0
+Sarva Haryana Gramin Bank,Regional rural,33.228492,0.68,1.6337384,0.15213113,0
+Punjab & Sind Bank,Public sector,76.938847,1.95,1.4027352,0.19727479,0
+Telangana Grameena Bank,Regional rural,56.382922,0.57,1.3200223,0.008022089,0
+Karnataka Gramin Bank,Regional rural,67.330569,0.23,1.1382647,0.0017486871,0
+Chaitanya Godavari Grameena Bank,Regional rural,57.575597,0.16,0.9469239,0.022219874,0
+ESAF Small Finance Bank,Small finance,41.09294,0.77,0.91723144,0.32749045,0
+NSDL Payments Bank,Payments bank,85.056548,1.17,0.6631023,0.0019149327,0
+Tamilnad Mercantile Bank,Private sector,72.541164,0.36,0.5714199,0.043953653,0
+Saraswat Co-operative Bank,Other,36.432795,0.47,0.51637375,0.32589886,0
+Canara Bank,Public sector,1282.886433,0.65,0.4676944,0.12522238,0
+Bandhan Bank,Private sector,110.416792,0.59,0.43174982,0.32817295,0
+IDBI Bank,Private sector,243.236917,0.19,0.40944436,0.0045183315,0
+Fino Payments Bank,Payments bank,303.469763,0.35,0.3950593,0.04257018,0
+Jio Payments Bank,Payments bank,101.649976,0.34,0.38880002,0.0033974678,0
+India Post Payments Bank,Payments bank,950.234819,0.13,0.35302824,0.00053677295,0
+Jammu & Kashmir Bank,Private sector,134.160522,0.08,0.34848133,0.00267149,0
+Federal Bank,Private sector,312.603681,0.55,0.34626222,0.006862296,0
+Ujjivan Small Finance Bank,Small finance,70.348319,0.21,0.34325337,0.03057232,0
+Punjab National Bank,Public sector,1539.539118,0.11,0.3328272,0.0014570325,0
+IndusInd Bank,Private sector,275.943604,0.34,0.3255591,0.0029040081,0
+Equitas Small Finance Bank,Small finance,31.340191,0.21,0.29309225,0.01848131,0
+Indian Bank,Public sector,868.942048,0.34,0.28348774,0.0055564633,0
+State Bank of India,Public sector,6845.842221,0.1,0.27963835,0.0012740623,0
+Bank of India,Public sector,791.934482,0.12,0.27963835,0.0015437662,0
+Airtel Payments Bank,Payments bank,804.875344,0.12,0.2740988,0.0014836582,0
+AU Small Finance Bank,Small finance,104.430043,0.08,0.26772198,0.010125607,0
+UCO Bank,Public sector,373.505414,0.14,0.2420147,0.021727303,0
+Karur Vysya Bank,Private sector,117.080579,0.2,0.23287429,0.0031168154,0
+Union Bank of India,Public sector,1601.832921,0.2,0.22884512,0.0050269444,0
+City Union Bank,Private sector,67.953163,0.07,0.2287489,0.00096991647,0
+DBS Bank India,Other,33.149834,0.16,0.22862175,0.05479451,0
+Karnataka Bank,Private sector,171.821945,0.14,0.22801459,0.018120699,0
+Indian Overseas Bank,Public sector,483.833034,0.06,0.22443281,0.002013836,0
+Bank of Maharashtra,Public sector,274.233912,0.06,0.22443281,0.0049104546,0
+Slice Small Finance Bank,Small finance,111.853209,0.03,0.21816035,0.0074194935,0
+Bank of Baroda,Public sector,1831.426252,0.04,0.19199225,0.0017263661,0
+South Indian Bank,Private sector,91.450743,0.18,0.17120947,0.004821407,0
+ICICI Bank,Private sector,829.389043,0.03,0.15958829,0.0012933711,0
+Kotak Mahindra Bank,Private sector,1213.960245,0.02,0.15181457,0.0005437256,0
+HDFC Bank,Private sector,1786.328061,0.0,0.1423089,0.00023623602,0
+IDFC FIRST Bank,Private sector,180.558173,0.03,0.13854367,0.0002866493,0
+Axis Bank,Private sector,1071.072905,0.0,0.13344716,0.00020677409,0
+YES Bank,Private sector,178.173167,0.1,0.1306789,0.00021461173,0

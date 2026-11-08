@@ -1,0 +1,414 @@
+{
+ "sizes": {
+  "train": 478,
+  "val": 294,
+  "test": 653,
+  "train_spikes": 46,
+  "val_spikes": 10,
+  "test_spikes": 20
+ },
+ "best": {
+  "reg_xgb": {
+   "depth": "3",
+   "n": "150"
+  },
+  "reg_mlp": {
+   "h": "(16,)",
+   "alpha": "0.001"
+  },
+  "clf_xgb": {
+   "depth": "3",
+   "n": "300"
+  },
+  "clf_mlp": {
+   "h": "(32, 16)",
+   "alpha": "0.001"
+  },
+  "clf_logit": {
+   "C": "1.0"
+  }
+ },
+ "tuning": [
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 2, 'n': 150}",
+   "score": 1.4416168134148486
+  },
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 2, 'n': 300}",
+   "score": 1.5039838222822468
+  },
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 3, 'n': 150}",
+   "score": 1.425284218371988
+  },
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 3, 'n': 300}",
+   "score": 1.4651526771863923
+  },
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 4, 'n': 150}",
+   "score": 1.4601593928127188
+  },
+  {
+   "task": "reg",
+   "model": "xgb",
+   "hp": "{'depth': 4, 'n': 300}",
+   "score": 1.4983122239171724
+  },
+  {
+   "task": "reg",
+   "model": "mlp",
+   "hp": "{'h': (16,), 'alpha': 0.001}",
+   "score": 1.2487120535418441
+  },
+  {
+   "task": "reg",
+   "model": "mlp",
+   "hp": "{'h': (16,), 'alpha': 0.1}",
+   "score": 1.248951348543369
+  },
+  {
+   "task": "reg",
+   "model": "mlp",
+   "hp": "{'h': (32, 16), 'alpha': 0.001}",
+   "score": 1.312015418261007
+  },
+  {
+   "task": "reg",
+   "model": "mlp",
+   "hp": "{'h': (32, 16), 'alpha': 0.1}",
+   "score": 1.3059536663046278
+  },
+  {
+   "task": "clf",
+   "model": "xgb",
+   "hp": "{'depth': 2, 'n': 150}",
+   "score": 0.1785253016246295
+  },
+  {
+   "task": "clf",
+   "model": "xgb",
+   "hp": "{'depth': 2, 'n': 300}",
+   "score": 0.1941485044945384
+  },
+  {
+   "task": "clf",
+   "model": "xgb",
+   "hp": "{'depth': 3, 'n': 150}",
+   "score": 0.12895462727847024
+  },
+  {
+   "task": "clf",
+   "model": "xgb",
+   "hp": "{'depth': 3, 'n': 300}",
+   "score": 0.19804389829389826
+  },
+  {
+   "task": "clf",
+   "model": "mlp",
+   "hp": "{'h': (16,), 'alpha': 0.001}",
+   "score": 0.14808403707336698
+  },
+  {
+   "task": "clf",
+   "model": "mlp",
+   "hp": "{'h': (16,), 'alpha': 0.1}",
+   "score": 0.1524912782657727
+  },
+  {
+   "task": "clf",
+   "model": "mlp",
+   "hp": "{'h': (32, 16), 'alpha': 0.001}",
+   "score": 0.17279089537249978
+  },
+  {
+   "task": "clf",
+   "model": "mlp",
+   "hp": "{'h': (32, 16), 'alpha': 0.1}",
+   "score": 0.16012037316967712
+  },
+  {
+   "task": "clf",
+   "model": "logit",
+   "hp": "{'C': 0.01}",
+   "score": 0.21494684306463296
+  },
+  {
+   "task": "clf",
+   "model": "logit",
+   "hp": "{'C': 0.1}",
+   "score": 0.21649479275517527
+  },
+  {
+   "task": "clf",
+   "model": "logit",
+   "hp": "{'C': 1.0}",
+   "score": 0.21680218712028143
+  }
+ ],
+ "reg": {
+  "Naive (last month)": {
+   "train_rmse": 1.5775189167304737,
+   "train_mae": 0.7280958549222798,
+   "test_rmse": 0.9580165083497579,
+   "test_mae": 0.46552770740978827,
+   "test_r2": 0.18356906024493658,
+   "diff_vs_naive_ci": [
+    0.0,
+    0.0
+   ],
+   "top3_sq_share": 0.18489371111133726,
+   "rmse_ex_top3": 0.8669220056895742
+  },
+  "Bank history mean": {
+   "train_rmse": 1.8832504265276127,
+   "train_mae": 0.9765272486358759,
+   "test_rmse": 0.967666702615484,
+   "test_mae": 0.6020847107538185,
+   "test_r2": 0.1670382413088377,
+   "diff_vs_naive_ci": [
+    -0.14788734811890858,
+    0.1461744132662341
+   ]
+  },
+  "Fractional logit": {
+   "train_rmse": 1.273345151194164,
+   "train_mae": 0.6633492534846457,
+   "test_rmse": 0.8231817416732403,
+   "test_mae": 0.47264786518623675,
+   "test_r2": 0.39721154316759577,
+   "diff_vs_naive_ci": [
+    -0.2316516930727883,
+    -0.04561627458579066
+   ],
+   "top3_sq_share": 0.24138636161549734,
+   "rmse_ex_top3": 0.7186310278966823
+  },
+  "XGBoost": {
+   "train_rmse": 0.8764605700599462,
+   "train_mae": 0.4474785979435697,
+   "test_rmse": 0.8138479831336237,
+   "test_mae": 0.43292013268410795,
+   "test_r2": 0.41080364425693006,
+   "diff_vs_naive_ci": [
+    -0.24562593237145164,
+    -0.05508870864249973
+   ],
+   "top3_sq_share": 0.2355655150216613,
+   "rmse_ex_top3": 0.7132032920929672
+  },
+  "Neural network (MLP)": {
+   "train_rmse": 1.2673907153053001,
+   "train_mae": 0.6238363491083629,
+   "test_rmse": 0.8306020578665952,
+   "test_mae": 0.4714101124675695,
+   "test_r2": 0.38629526449394147,
+   "diff_vs_naive_ci": [
+    -0.21959169527930536,
+    -0.0404145645657639
+   ],
+   "top3_sq_share": 0.19724645730411283,
+   "rmse_ex_top3": 0.7459058796401842
+  }
+ },
+ "clf": {
+  "Naive (still in spike)": {
+   "thr": 0.5,
+   "tn": 617,
+   "fp": 16,
+   "fn": 16,
+   "tp": 4,
+   "precision": 0.2,
+   "recall": 0.2,
+   "accuracy": 0.9509954058192955,
+   "f1": 0.2,
+   "roc_auc": 0.5873617693522907,
+   "pr_auc": 0.06450229709035223,
+   "flagged": 20,
+   "train_auc": null,
+   "train_pr": null
+  },
+  "Logistic regression": {
+   "thr": 0.9772778454334969,
+   "tn": 632,
+   "fp": 1,
+   "fn": 20,
+   "tp": 0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "accuracy": 0.9678407350689127,
+   "f1": 0.0,
+   "roc_auc": 0.6911532385466035,
+   "pr_auc": 0.09958381557208808,
+   "flagged": 1,
+   "train_auc": 0.8232492019154031,
+   "train_pr": 0.27665733268048665
+  },
+  "XGBoost classifier": {
+   "thr": 0.6129755973815918,
+   "tn": 608,
+   "fp": 25,
+   "fn": 16,
+   "tp": 4,
+   "precision": 0.13793103448275862,
+   "recall": 0.2,
+   "accuracy": 0.9372128637059725,
+   "f1": 0.16326530612244897,
+   "roc_auc": 0.7439178515007898,
+   "pr_auc": 0.1326103394003786,
+   "flagged": 29,
+   "train_auc": 0.9997755387071029,
+   "train_pr": 0.9969604278684244
+  },
+  "Neural network (MLP)": {
+   "thr": 0.4465673783528427,
+   "tn": 625,
+   "fp": 8,
+   "fn": 20,
+   "tp": 0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "accuracy": 0.9571209800918836,
+   "f1": 0.0,
+   "roc_auc": 0.5605845181674566,
+   "pr_auc": 0.03969440697970185,
+   "flagged": 8,
+   "train_auc": 0.9315642458100558,
+   "train_pr": 0.643039478023101
+  }
+ },
+ "importance": {
+  "g_Regional": 0.22100000083446503,
+  "td_pct": 0.16300000250339508,
+  "hist_mean": 0.09200000017881393,
+  "td_l1": 0.08399999886751175,
+  "newpeak": 0.07199999690055847,
+  "lnV": 0.06599999964237213,
+  "bd_l0": 0.05900000035762787,
+  "cos_m": 0.04899999871850014,
+  "sin_m": 0.0430000014603138,
+  "g_Public": 0.041999999433755875,
+  "dlnV": 0.03999999910593033,
+  "peak_next": 0.03500000014901161,
+  "g_Payments": 0.032999999821186066,
+  "g_Small": 0.0,
+  "g_Private": 0.0
+ },
+ "n_test": 653,
+ "base_rate": 0.030627871362940276,
+ "feats": [
+  "td_pct",
+  "td_l1",
+  "bd_l0",
+  "lnV",
+  "dlnV",
+  "newpeak",
+  "hist_mean",
+  "sin_m",
+  "cos_m",
+  "peak_next",
+  "g_Public",
+  "g_Private",
+  "g_Small",
+  "g_Payments",
+  "g_Regional"
+ ],
+ "test_months": [
+  "2025-07",
+  "2026-08"
+ ],
+ "val_months": [
+  "2025-01",
+  "2025-06"
+ ],
+ "watchlist": {
+  "month": "2026-08",
+  "n": 48,
+  "n_flag": 0,
+  "top": [
+   {
+    "entity": "Baroda UP Gramin Bank",
+    "group": "Regional rural",
+    "volume_mn": 109.672,
+    "td_pct": 2.44,
+    "pred_td": 3.7200000286102295,
+    "pred_spike_prob": 0.19099999964237213,
+    "flag": 0
+   },
+   {
+    "entity": "Maharashtra Gramin Bank",
+    "group": "Regional rural",
+    "volume_mn": 45.875,
+    "td_pct": 1.23,
+    "pred_td": 2.135999917984009,
+    "pred_spike_prob": 0.008999999612569809,
+    "flag": 0
+   },
+   {
+    "entity": "Rajasthan Marudhara Gramin Bank",
+    "group": "Regional rural",
+    "volume_mn": 78.463,
+    "td_pct": 1.18,
+    "pred_td": 1.715000033378601,
+    "pred_spike_prob": 0.004999999888241291,
+    "flag": 0
+   },
+   {
+    "entity": "Central Bank of India",
+    "group": "Public sector",
+    "volume_mn": 478.28,
+    "td_pct": 2.34,
+    "pred_td": 1.6710000038146973,
+    "pred_spike_prob": 0.33399999141693115,
+    "flag": 0
+   },
+   {
+    "entity": "Kerala Gramin Bank",
+    "group": "Regional rural",
+    "volume_mn": 68.614,
+    "td_pct": 0.84,
+    "pred_td": 1.6519999504089355,
+    "pred_spike_prob": 0.0989999994635582,
+    "flag": 0
+   },
+   {
+    "entity": "Sarva Haryana Gramin Bank",
+    "group": "Regional rural",
+    "volume_mn": 33.228,
+    "td_pct": 0.68,
+    "pred_td": 1.6339999437332153,
+    "pred_spike_prob": 0.15199999511241913,
+    "flag": 0
+   },
+   {
+    "entity": "Punjab & Sind Bank",
+    "group": "Public sector",
+    "volume_mn": 76.939,
+    "td_pct": 1.95,
+    "pred_td": 1.402999997138977,
+    "pred_spike_prob": 0.19699999690055847,
+    "flag": 0
+   },
+   {
+    "entity": "Telangana Grameena Bank",
+    "group": "Regional rural",
+    "volume_mn": 56.383,
+    "td_pct": 0.57,
+    "pred_td": 1.3200000524520874,
+    "pred_spike_prob": 0.00800000037997961,
+    "flag": 0
+   }
+  ],
+  "top10_pred_vol_share": 0.04047107553818645
+ }
+}
